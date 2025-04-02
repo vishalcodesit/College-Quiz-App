@@ -1,0 +1,226 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  transition: background 0.3s, color 0.3s;
+}
+
+.App {
+  background: white;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+
+.dark-mode {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .App {
+  background: #1e1e1e;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+
+.dark-mode .Leaderboard {
+  background: #252525;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.dark-mode .Leaderboard h2 {
+  color: #4285f4;
+  margin-bottom: 1rem;
+}
+
+
+.dark-mode .Leaderboard select {
+  background: #2d2d2d;
+  color: #e0e0e0;
+  border: 1px solid #3d3d3d;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+.dark-mode .Leaderboard select option {
+  background: #2d2d2d;
+  color: #e0e0e0;
+}
+
+
+.dark-mode .Leaderboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dark-mode .Leaderboard li {
+  background: #333333;
+  color: #ffffff;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.dark-mode .Leaderboard .score {
+  color: #4caf50; 
+  font-weight: bold;
+}
+
+.dark-mode .Leaderboard .category {
+  color: #bb86fc; 
+  font-style: italic;
+}
+
+
+.dark-mode input,
+.dark-mode select {
+  background: #2d2d2d;
+  color: #e0e0e0;
+  border: 1px solid #3d3d3d;
+}
+
+.dark-mode input::placeholder {
+  color: #8a8a8a;
+}
+
+
+.dark-mode button {
+  background: #2575fc;
+  color: white;
+}
+
+.dark-mode button:hover {
+  background: #1b6ef3;
+}
+
+.user-input-form {
+  margin-bottom: 2rem;
+}
+
+.user-input-form input,
+.user-input-form select,
+.user-input-form button {
+  width: calc(100% - 20px);
+}
+
+.user-input-form input {
+  padding: 0.75rem;
+}
+
+
+
+
+.Leaderboard {
+  margin-top: 2rem;
+}
+
+.Leaderboard h2 {
+  font-size: 1.5rem;
+  color: #2575fc;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.filters select {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #f4f4f4;
+}
+
+.leaderboard-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.user-info {
+  display: flex;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.meta-info {
+  text-align: right;
+}
+
+
+.score-date {
+  display: flex; 
+}
+
+
+.score-date .score {
+    margin-right:10px;
+  }
+
+  
+.Leaderboard {
+  margin-top: 2rem;
+}
+
+.Leaderboard h2 {
+  font-size: 1.5rem;
+  color: #2575fc;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.filters select {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 8px;
+}
+
+.leaderboard-list {
+  list-style-type: none;
+}
+
+.leaderboard-item {
+  display: flex;
+}
+
+
+.dark-mode .difficulty-selector {
+  margin-top: 0.5rem;
+}
+
+.dark-mode .difficulty-selector label {
+  margin-right: 0.5rem;
+  color: #e0e0e0;
+}
